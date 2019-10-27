@@ -1,0 +1,31 @@
+{
+  "name": "swinton/TypeScript",
+  "version": "0.0.0",
+  "description": "How I TypeScript",
+  "author": "Steve Winton <stevewinton@gmail.com> (https://github.com/swinton)",
+  "main": "dist/index.js",
+  "license": "ISC",
+  "keywords": [],
+  "scripts": {
+    "test": "jest",
+    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}'",
+    "build": "tsc --noEmit && parcel build src/index.ts --target=node"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-prettier": "latest",
+    "jest": "latest",
+    "parcel": "latest",
+    "prettier": "latest",
+    "ts-jest": "latest",
+    "typescript": "latest"
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  }
+}
